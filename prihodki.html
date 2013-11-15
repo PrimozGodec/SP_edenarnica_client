@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<!-- New HTML5 section elements. -->
+<html>
+   <head>
+      	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+      	<title>e-denarnica</title>
+	<link rel="shortcut icon" href="image/browserImage.png">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+	<script type = "text/javascript"  src = "popupWindow.js" ></script>
+		
+	
+
+	<script type = "text/javascript"  src = "popup.js" ></script>
+
+   </head>
+
+   <body>
+      	<header class="logo"> <!-- header element creates a header for the page 	-->
+	
+		 <!--  <img src="image/logo.png" alt="Logo"/> -->
+      	</header>
+	
+	 <nav>
+            <ul class="fancyNav">
+                <li id="home"><a href="home.html" >Domov</a></li>
+                <li id="prihodki"><a href="prihodki.html">Prihodki</a></li>
+                <li id="odhodki"><a href="odhodki.html">Odhodki</a></li>
+                <li id="varcevanje"><a href="varcevanje.html">Varčevanje</a></li>
+                
+            </ul>
+        </nav>
+
+	<section class="mainFraim">
+		<div class="prihodkiP" >
+				<h1 style="color: green;"> Prihodki </h1>
+				
+				<table class="tabelaPrihodkov" id = "dataTab">
+					<tr style="font-weight:bold; color: white;">
+						<td style="width: 20%">Datum</td>
+						<td style="width: 30%">Oznaka</td>
+						<td style="width: 10%">Znesek</td>
+						<td style="width: 50%">Opis</td>
+					</tr>
+					
+
+				</table>
+
+				<script type = "text/javascript"  src = "tableAdding.js" ></script>
+			</div>		
+	</section>
+
+	<footer class="navFoot">
+		
+		
+		<div class="column">
+			<a href="settings.html" class="setButton">Nastavitve</a>  
+		</div>
+		<div class="column">
+			<a href="home.html" >Domov</a><br>
+		        <a href="prihodki.html">Prihodki</a><br>
+		        <a href="odhodki.html">Odhodki</a><br>
+		        <a href="varcevanje.html">Varčevanje</a><br>
+		</div>
+		<div class="column-last">
+			<p> e-denarnica </p>
+			<p> Avtor: Primož Godec </p>
+			<p> Spletno programiranje, FRI </p>
+			<p> Oktober, 2013 </p>
+		</div>
+		
+	
+		
+	</footer>
+
+	<div id="dialog" title="Prihodek">
+  		<p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+	</div>
+      
+   </body>
+</html>
+

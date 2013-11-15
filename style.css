@@ -1,0 +1,446 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	background-color:#232323;
+	background:url('image/background4.jpg') ;
+	background-position: center top;
+	background-repeat:repeat;
+	margin: auto;
+}
+
+header
+{
+	margin: auto;
+	position: relative;
+	text-align: center;
+	background: url('image/logo3-2.png') no-repeat center center;
+	width: 800px;
+	height: 120px
+}
+
+h1
+{
+	color: white;
+	font: 30px ubuntu,sans-serif;
+}
+
+h2
+{
+	color: white;
+	font: 20px ubuntu,sans-serif;
+}
+
+p
+{
+	color: #A0A0AA;
+	font: 16px arial,sans-serif;
+}
+
+label
+{
+	color: white;
+	font: 20px ubuntu,sans-serif;
+}
+
+input
+{
+	
+
+	border-radius: 7px;
+    	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+
+	
+}
+
+textarea
+{
+	
+
+	border-radius: 7px;
+    	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+
+	
+}
+
+.label
+{
+	color: white;
+	font: 20px ubuntu,sans-serif;
+}
+
+
+a.prijava
+{
+	font: 20px ubuntu,sans-serif;
+	color: white;
+	text-decoration: none;	
+}
+
+.tabelaPrihodkov
+{
+	margin-top: 20px;
+	width: 100%;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: #606060;
+	font: 20px ubuntu,sans-serif;
+	color: #A0A0AA;;
+}
+
+.tabelaPrihodkov td
+{
+	border-top: solid;
+	border-width: 1px;
+	border-color: #606060;
+	
+}
+
+.tabelaPrihodkov tr:hover
+{
+	color: white;
+	
+}
+
+.tabelaPrihodkov tdcena
+{
+	width: 15%;
+}
+
+.homePrihodki
+{
+	width: 90%;
+	height: 47%;
+	float:left;
+	margin: 2%;
+	
+	
+}
+
+.homeOdhodki
+{
+	width: 90%;
+	height: 47%;
+	float:left;
+	margin: 2%;
+	
+	
+}
+
+.prihodkiP
+{
+	margin: 3%;
+}
+
+.mainFraim
+{
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-top: 20px;
+	width: 800px;
+	height: 550px;
+	text-align: left;
+	
+	border-style:solid;
+	border-width: 1px;
+	border-left-color: #242424;
+	border-top-color:  #242424;
+	border-right-color: #808080;
+	border-bottom-color: #808080;
+
+	/*background:url('image/backForSec1.jpg') ; */
+	background-color: rgba(10, 10, 10, 0.3); 
+	
+	/* vogali */ 
+	border-radius: 4px;
+    	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.mainRegistracija
+{
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-top: 20px;
+	width: 800px;
+	height: 390px;
+	text-align: left;
+	
+	border-style:solid;
+	border-width: 1px;
+	border-left-color: #242424;
+	border-top-color:  #242424;
+	border-right-color: #808080;
+	border-bottom-color: #808080;
+
+	/*background:url('image/backForSec1.jpg') ; */
+	background-color: rgba(10, 10, 10, 0.3); 
+	
+	/* vogali */ 
+	border-radius: 4px;
+    	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.navFoot
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	
+
+	border-top: dotted;
+	border-width: 1px;
+	border-color: #B0B0B0;
+
+	
+	
+	
+	width: 800px;
+
+}
+
+a.setButton{
+	background: url('image/setings.png') no-repeat center center;
+	display: block;
+	overflow: hidden;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-indent: -999px;
+	width: 90%;
+	height: 80px;
+}
+
+.column {
+	width:30.5%;
+	height:85px;
+	float:left;
+	margin:10px 10px;
+	border-right: dotted;
+	border-color: #B0B0B0;
+	border-width: 1px;
+
+	color: #A0A0AA;
+	font: 16px Arial,sans-serif;
+	
+}
+
+.column a
+{
+	color: #A0A0AA;
+	font: 16px Arial,sans-serif;
+	text-decoration: none;
+}
+
+.column-last {
+	width:30.5%;
+	height:85px;
+	float:left;
+	margin:10px 10px;
+
+	color: #A0A0AA;
+	font: 16px Arial,sans-serif;
+}
+
+.prihodkiOdhodki {
+	width: 48%;
+	height:  90%;
+	float:left;
+	margin: 20px 20px;
+	
+	border-right: dotted;
+	border-color: #606060;
+	border-width: 1px;
+}
+
+.vpisAnaliza {
+	width:41%;
+	height: 90%;
+	float:left;
+	margin: 20px 20px;
+	
+	
+}
+
+.regForm
+{
+	height: 100%;
+}
+
+.warnings
+{
+	color: red;
+}
+
+.iconsUpDown
+{
+	width: 80px;
+}
+
+.gridArrow
+{
+	width: 100%;
+}
+
+
+/*----------------------------
+	CSS3 Animated Navigation for menu... ;)
+-----------------------------*/
+
+.fancyNav{
+    /* Affects the UL element */
+	overflow: hidden;
+	display: inline-block;
+	margin: auto;
+	width: 800px;
+
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
+}
+
+.fancyNav li{
+    /* Specifying a fallback color and we define CSS3 gradients for the major browsers: */
+
+    background-color: #f0f0f0;
+    background-image: -webkit-gradient(linear,left top, left bottom,from(#fefefe), color-stop(0.5,#f0f0f0), color-stop(0.51, #e6e6e6));
+    background-image: -moz-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+    background-image: -o-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+    background-image: -ms-linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+    background-image: linear-gradient(#fefefe 0%, #f0f0f0 50%, #e6e6e6 51%);
+
+    border-right: 1px solid rgba(9, 9, 9, 0.125);
+
+    /* Adding a 1px inset highlight for a more polished efect: */
+
+    box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+    -moz-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+    -webkit-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+
+    position:relative;
+
+    float: left;
+    list-style: none;
+}
+
+.fancyNav li:after{
+
+    /* This creates a pseudo element inslide each LI */	
+
+    content:'.';
+    text-indent:-9999px;
+    overflow:hidden;
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:1;
+    opacity:0;
+
+    /* Gradients! */
+
+    background-image:-webkit-gradient(linear, left top, right top, from(rgba(168,168,168,0.5)),color-stop(0.5,rgba(168,168,168,0)), to(rgba(168,168,168,0.5)));
+    background-image:-moz-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+    background-image:-o-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+    background-image:-ms-linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));
+    /*background-image:linear-gradient(left, rgba(168,168,168,0.5), rgba(168,168,168,0) 50%, rgba(168,168,168,0.5));*/
+
+    /* Creating borders with box-shadow. Useful, as they don't affect the size of the element. */
+
+    box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+    -moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+    -webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff,1px 0 0 #a3a3a3,2px 0 0 #fff;
+
+    /* This will create a smooth transition for the opacity property */
+
+    -moz-transition:0.25s all;
+    -webkit-transition:0.25s all;
+    -o-transition:0.25s all;
+    transition:0.25s all;
+}
+
+.fancyNav li:first-child{
+    border-radius: 4px 0 0 4px;
+}
+
+.fancyNav li:first-child:after,
+.fancyNav li.selected:first-child:after{
+    box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+    -moz-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+    -webkit-box-shadow:1px 0 0 #a3a3a3,2px 0 0 #fff;
+
+    border-radius:4px 0 0 4px;
+}
+
+.fancyNav li:last-child{
+    border-radius: 0 4px 4px 0;
+}
+
+/* Treating the last LI and li:after elements separately */
+
+.fancyNav li:last-child:after,
+.fancyNav li.selected:last-child:after{
+    box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+    -moz-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+    -webkit-box-shadow:-1px 0 0 #a3a3a3,-2px 0 0 #fff;
+
+    border-radius:0 4px 4px 0;
+}
+
+.fancyNav li:hover:after,
+.fancyNav li.selected:after,
+.fancyNav li:target:after{
+    /* This property triggers the CSS3 transition */
+    opacity:1;
+}
+
+.fancyNav:hover li.selected:after,
+.fancyNav:hover li:target:after{
+    /* Hides the targeted li when we are hovering on the UL */
+    opacity:0;
+}
+
+.fancyNav li.selected:hover:after,
+.fancyNav li:target:hover:after{
+    opacity:1 !important;
+}
+
+.fancyNav li a{
+    color: #5d5d5d;
+    display: inline-block;
+    font: 20px/1 Lobster,Arial,sans-serif;
+    padding: 12px 64.1px 14px;
+    position: relative;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+    z-index:2;
+    text-decoration:none !important;
+    white-space:nowrap;
+}
+
+.fancyNav a.homeIcon{
+    background:url('image/home.png') no-repeat center center;
+    display: block;
+    overflow: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-indent: -9999px;
+    width: 16px;
+}
+
+nav{
+	display: block;	
+	text-align: center;
+	
+}

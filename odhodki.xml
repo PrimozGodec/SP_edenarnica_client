@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<elements
+xmlns="http://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.w3schools.com odhodki.xsd">
+	<odhodek>
+		<dan>1</dan>
+		<mesec>11</mesec>
+		<leto>2013</leto>
+		<znesek>50</znesek>
+		<oznaka>Nakup</oznaka>
+		<opis>Nakup v mercatorju.</opis>
+	</odhodek>
+
+	<odhodek>
+		<dan>15</dan>
+		<mesec>11</mesec>
+		<leto>2013</leto>
+		<znesek>40</znesek>
+		<oznaka>Mobitel</oznaka>
+		<opis>Plačilo računa za mobitel.</opis>
+	</odhodek>
+
+	<odhodek>
+		<dan>18</dan>
+		<mesec>11</mesec>
+		<leto>2013</leto>
+		<znesek>60</znesek>
+		<oznaka>Gorivo</oznaka>
+		<opis>Nakup bencina na Petrolu.</opis>
+	</odhodek>
+</elements>	
+

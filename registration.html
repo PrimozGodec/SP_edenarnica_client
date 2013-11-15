@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<!-- New HTML5 section elements. -->
+<html>
+   <head>
+      	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+      	<title>e-denarnica</title>
+	<link rel="shortcut icon" href="image/browserImage.png">
+	<script type = "text/javascript"  src = "passMatchCheck.js" >
+    	</script>
+
+   </head>
+
+   <body>
+      	<header class="logo"> <!-- header element creates a header for the page 	-->
+	
+		 <!--  <img src="image/logo.png" alt="Logo"/> -->
+      	</header>
+	
+		
+	 <section class="mainRegistracija">
+		<form method="post" action="index1.html" class="regForm">
+			<figure class = prihodkiOdhodki>
+				<h1> Tvoji podatki </h1>
+				<p style="margin-top: 10px"> Vnesi podatke o računu. </p><br>
+			
+					<label> Ime: <br><input type="text" name="ime" required style="width: 95%; height: 25px; margin-top: 10px;" /> </label> <br><br>
+					<label> Priimek: <br><input type="text" name="priimek" required style="width: 95%; height: 25px; margin-top: 10px;" /> </label> <br><br>
+					<label> Email: <br><input type="email" name="email" required style="width: 95%; height: 25px; margin-top: 10px;" /> </label> <br><br>
+				
+				
+				
+			</figure>
+
+			<figure class = vpisAnaliza>
+				<h1> Nastavitve gesla </h1>
+				<p style="margin-top: 10px"> Tukaj nastaviš tvoje geslo. </p><br>
+				
+					
+					<label> Novo geslo: <br><input type="password" name="newpass" required style="width: 95%; height: 25px; margin-top: 10px;" /> </label> <br><br>
+					<label> Potrditev novega gesla: <br><input type="password" name="newpass2" required style="width: 95%; height: 25px; margin-top: 10px;" /> </label> <br><br>
+					<p id = "warning" style = "color: red;"> &nbsp</p>
+					<input type = "submit" value = "Registracija" id = "registracijaB" style="width: 95%; height: 30px; margin-top: 17px;">
+				
+			</figure>
+		</form><br><br>
+		
+	</section>
+
+	<footer class="navFoot">
+		
+		
+		<div class="column">
+			<img style="width: 90%" src='image/logo3-2.png' alt="Logo" />
+		</div>
+		<div class="column" style="text-align: center;">
+			
+			<p style="margin-top: 10px;">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				    <img style="border: 0; width: 88px; height: 31px;"
+					src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+					alt="Valid CSS!" />
+				</a>
+			</p>
+		</div>
+		<div class="column-last">
+			<p> e-denarnica </p>
+			<p> Avtor: Primož Godec </p>
+			<p> Spletno programiranje, FRI </p>
+			<p> Oktober, 2013 </p>
+		</div>
+		
+	
+		
+	</footer>
+
+      
+   </body>
+</html>
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<!-- New HTML5 section elements. -->
+<html>
+   <head>
+      	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" />
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+	
+	<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    	<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+	<script>
+		$(function () {
+		    $("#dateP").datepicker();
+		});
+	</script>
+
+	<script type = "text/javascript"  src = "numCheck.js" >
+    	</script>
+
+	<link rel="shortcut icon" href="image/browserImage.png">
+      	<title>e-denarnica</title>
+   </head>
+
+   <body>
+      	<header class="logo"> <!-- header element creates a header for the page 	-->
+	
+		 <!--  <img src="image/logo.png" alt="Logo"/> -->
+      	</header>
+	
+	 <nav>
+            <ul class="fancyNav">
+                <li id="home"><a href="home.html" >Domov</a></li>
+                <li id="prihodki"><a href="prihodki.html">Prihodki</a></li>
+                <li id="odhodki"><a href="odhodki.html">Odhodki</a></li>
+                <li id="varcevanje"><a href="varcevanje.html">Varčevanje</a></li>
+                
+            </ul>
+        </nav>
+
+	<section class="mainFraim">
+		<figure class = prihodkiOdhodki>
+			<div class="homePrihodki">
+				<h1 style="color: green;"> Prihodki </h1>
+				
+				<table class="tabelaPrihodkov" id = "tabPrih">
+				</table>
+			</div>
+			<div class="homeOdhodki">
+				<h1 style="color: red;"> Odhodki </h1>
+				
+				<table class="tabelaPrihodkov" id = "tabOdh">
+				</table>
+
+			
+			</div>
+			<script type = "text/javascript"  src = "tableAddingHome.js" ></script>
+		</figure>
+
+		<figure class = vpisAnaliza>
+			<h1> Dodaj vpis </h1> <br>
+			<form method="post" action="home.html">
+				<label> Oznaka: <br><input type="text" name="tag" placeholder = "oznaka" required style="width: 95%; height: 25px; margin-top: 10px;" /> </label> <br><br>
+				<label> Znesek: <br><input type="number" name="znesek" placeholder = "znesek v €" required style="width: 95%; height: 25px; margin-top: 10px;" /> </label> <br><br>
+				<label> Datum: <br><input type="text" name="datum" id="dateP" required style="width: 95%; height: 25px; margin-top: 10px;" /> </label> <br><br>
+				&nbsp; &nbsp; &nbsp; &nbsp;
+				<label><input type="radio" name="mode" value="tillDate" required> Prhiodek</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label><input type="radio" name="mode" value="tillDate" required> Odhodek</label> <br>
+
+				<label> Opis: <textarea name="datum" rows="3" style="width: 95%; margin-top: 10px;" >  </textarea> </label> <br><br>
+				<p class = "warnings" id = "warningZn" > &nbsp; </p>
+				<input type = "submit" value = "Dodaj" id = "vnosB" style="width: 95%; height: 30px; margin-top: 5px;">
+			</form><br><br>
+		</figure>
+
+		
+	</section>
+
+	<footer class="navFoot">
+		
+		
+		<div class="column">
+			<a href="settings.html" class="setButton">Nastavitve</a>  
+		</div>
+		<div class="column">
+			<a href="home.html" >Domov</a><br>
+		        <a href="prihodki.html">Prihodki</a><br>
+		        <a href="odhodki.html">Odhodki</a><br>
+		        <a href="varcevanje.html">Varčevanje</a><br>
+		</div>
+		<div class="column-last">
+			<p> e-denarnica </p>
+			<p> Avtor: Primož Godec </p>
+			<p> Spletno programiranje, FRI </p>
+			<p> Oktober, 2013 </p>
+		</div>
+		
+	
+		
+	</footer>
+
+      
+   </body>
+</html>
+

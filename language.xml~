@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<elements>
+	<login>
+		<en>Log in</en>
+		<sl>Vpis</sl>
+	</login>
+	
+	<password>
+		<en>Password</en>
+		<sl>Geslo</sl>
+	</password>
+
+	<email>
+		<en>E-mail</en>
+		<sl>E-naslov</sl>
+	</email>
+	
+	<donthave>
+		<en>Do not you have a e-danarnica?</en>
+		<sl>Še nimam e-denarnice</sl>
+	</donthave>
+
+	<heading>
+		<en>Save your money!</en>
+		<sl>Prihrani svoj denar!</sl>
+	</heading>
+	
+	<head1>
+		<en>Know where your money is going?</en>
+		<sl>Želiš vedeti za kaj porabljaš svoj denar?</sl>
+	</head1>
+
+	<par1>
+		<en>All those coffees, car fill-ups and meals really add up. Get to know how much money you spend and for what. That's step to financial freedom.</en>
+		<sl>Kosila, druženja ob kavi, nakupovanje, gorivo... To je vse kar porablja tvoj denar. Želiš imeti tega bolj pod nadzorom? Uporabi e-denarnico.</sl>
+	</par1>
+
+	<head2>
+		<en>Make your paycheck last longer</en>
+		<sl>Bi rad načrtoval svojo porabo?</sl>
+	</head2>
+
+	<par2>
+		<en>Set up a budget to remind you not to spend too much. That way you can save some money at the end of the month. You can even budget for specific expenses. Like candy.</en>
+		<sl>Velikokrat se zgodi, da denarja v tvoji denarnici preprosto zmanjka, do naslednje plače pa je še cela večnost. Z uporab e-denarnice, boš lahko načrtoval tvojo porabo, tako da se to ne bo več zgodilo.</sl>
+	</par2>
+
+	<head3>
+		<en>Peace of mind about your finances</en>
+		<sl>Bi rad načrtoval svojo porabo?</sl>
+	</head3>
+
+	<par3>
+		<en>Worry less. Because Toshl makes it easy to know where your finances stand you can sleep easier at night.</en>
+		<sl>Uporaba e-denanice je preprosta in varna, zato si lahko brez skrbi.</sl>
+	</par3>
+</elements>	
+
