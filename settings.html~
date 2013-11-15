@@ -48,7 +48,7 @@
 				<label> Staro geslo: <br><input type="password" name="oldpass" required style="width: 95%; height: 25px; margin-top: 10px;" /> </label> <br><br>
 				<label> Novo geslo: <br><input type="password" name="newpass" required style="width: 95%; height: 25px; margin-top: 10px;" /> </label> <br><br>
 				<label> Potrditev novega gesla: <br><input type="password" name="newpass2" required style="width: 95%; height: 25px; margin-top: 10px;" /> </label> <br><br>
-				<p id = "warning"> &nbsp </p>
+				<p id = "warning" class = "warnings"> &nbsp </p>
 				<input type = "submit" value = "Spremeni" id = "registracijaB" style="width: 95%; height: 30px; margin-top: 10px;">
 			</form><br><br>
 		</figure>
