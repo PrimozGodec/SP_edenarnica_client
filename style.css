@@ -6,7 +6,7 @@
 body
 {
 	background-color:#232323;
-	background:url('image/background4.jpg') ;
+	background:url('../../../../../faza%202/stran/image/background4.jpg') ;
 	background-position: center top;
 	background-repeat:repeat;
 	margin: auto;
@@ -17,7 +17,7 @@ header
 	margin: auto;
 	position: relative;
 	text-align: center;
-	background: url('image/logo3-2.png') no-repeat center center;
+	background: url('../../../../../faza%202/stran/image/logo3-2.png') no-repeat center center;
 	width: 800px;
 	height: 120px
 }
@@ -208,7 +208,7 @@ a.prijava
 }
 
 a.setButton{
-	background: url('image/setings.png') no-repeat center center;
+	background: url('../../../../../faza%202/stran/image/setings.png') no-repeat center center;
 	display: block;
 	overflow: hidden;
 	padding-left: 12px;
